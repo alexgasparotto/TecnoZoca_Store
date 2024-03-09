@@ -137,6 +137,8 @@ main{
 
 
 /* Inicio pantallas medianas tablets */
+
+
 @media only screen and (min-width: 576px) and (max-width: 991px){
   .img-menu_bar{
     display: none;
@@ -221,10 +223,6 @@ nav{
 }
 
 
-main{
-  height: 89.5vh;
-}
-
 .menu{
   width: 13vw;
   flex-direction: column;
@@ -252,6 +250,10 @@ footer{
 
 .icons{
   gap: 10px;
+}
+
+main{
+  height: 89vh;
 }
 
 }
